@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans',sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.home{
+    height: 100vh;
+    width: 100%;
+    background-image: url(Rectangle\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.navbar{
+    width: 1440px;
+    height: 97px;
+    flex-shrink: 0;
+    background: #A99DEC;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav ul {
+    list-style: none;
+    text-align: left;
+  }
+
+  nav ul li {
+    display: inline-block;
+    padding: 20px;
+    transition: all ease-in-out 250ms;
+  }
+
+  ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background: red;
+  }
